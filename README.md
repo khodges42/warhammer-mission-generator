@@ -43,7 +43,7 @@ To get started with the Warhammer Mission Generator, you'll need to set up the F
 
 4. **Add Your JSON File**
 
-   Place your `pariahnexus.json` file in the `missions` directory. Ensure the JSON file is structured according to the expected schema.
+   Place your `.json` file in the `missions` directory. Ensure the JSON file is structured according to the expected schema.
 
 5. **Run the Flask App**
 
@@ -69,7 +69,7 @@ To get started with the Warhammer Mission Generator, you'll need to set up the F
 
 ## JSON Schema
 
-The JSON file (`pariahnexus.json`) should contain the following categories:
+The JSON file (`genericmissions.json`) should contain the following categories:
 
 - **primaryMissions**: List of primary mission objects with `name`, `rule`, and optional `image`.
 - **missionRules**: List of mission rule objects with `name`, `rule`, and optional `image`.
@@ -89,7 +89,7 @@ Example of JSON structure:
   "missionRules": [
     {
       "name": "Fixed Positions",
-      "rule": "Players can target their battleline units ...",
+      "rule": "Players can target units ...",
       "image": ""
     }
   ],
