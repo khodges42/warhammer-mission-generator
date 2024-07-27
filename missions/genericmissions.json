@@ -2,7 +2,7 @@
     "primaryMissions": [
       {
         "name": "Strategic Hold",
-        "rule": "<b> Control Objective</b> <br/> When: End of your turn. <br/> If the player whose turn it is controls more objective markers than their opponent at the end of their turn, they score 4VP for each objective marker they control. <br/> <b>OR</b> <br/> If the player whose turn it is controls fewer objective markers than their opponent, they score 2VP for each objective marker they control.",
+        "rule": "From the second battle round onward, during the players command phase (or end of game if 5th round and going second), gain 2VP for controlling an objective in your deployment zone, 4vp for controlling an objective in No mans Land and 6vp for controlling an objective in the opponents deployment zone.",
         "image": ""
       },
       {
@@ -12,37 +12,7 @@
       },
       {
         "name": "Severed Supply Lines",
-        "rule": "<b> Sabotage Objective (Action) </b> <br/> Starts: Your shooting phase, from the second battle round. <br/>Units: One unit from your army within range of an enemy-controlled objective marker. <br/>Completes: End of your opponent's next turn or the end of the battle (whichever comes first). <br/> If completed: The objective marker is removed from the battlefield. <br/> <b> Second Battle Round Onwards </b> <br/> When: Any Time <br/> Each time the player whose turn it is removes an objective marker, they score 6VP if the marker was in No Man's Land or 12VP if it was in their opponent's deployment zone.",
-        "image": ""
-      },
-      {
-        "name": "Critical Drop",
-        "rule": "At the start of the game, players select two objective markers in No Man's Land; the first is the Primary Drop Zone, the second is the Secondary Drop Zone. <br/> Start of the 4th Battle Round: The Primary Drop Zone is removed from the battlefield. <br/> Start of the 5th Battle Round: All objective markers in No Man's Land except the Secondary Drop Zone are removed from the battlefield. <br/> <b> Second Battle Round Onwards </b> <br/> When: End of the command phase (or end of turn if 5th battle round and you are going second) <br/> The player whose turn it is scores VP for each objective marker in No Man's Land they control, with 6VP in the 2nd and 3rd rounds, 9VP in the 4th, and 18VP in the 5th.",
-        "image": ""
-      },
-      {
-        "name": "Reclaimed Ground",
-        "rule": "<b> Reclaim Ground (action)</b> <br/> Starts: Your shooting phase<br/> Units: One or more units from your army, each within range of a different objective marker in No Man's Land.<br/> Completes: End of your opponent's next turn or the end of the battle, if the unit performing this action is still within range of the same objective marker and you control that marker.<br/> If completed: Each of those objective markers is considered reclaimed. <br/> <b>Second Battle Round Onwards</b> <br/> When: End of the command phase (or end of your turn if it is the fifth battle round and you are going second) <br/> The player whose turn it is scores 5VP for each objective marker they control and an additional 3VP for each reclaimed marker.",
-        "image": ""
-      },
-      {
-        "name": "Guardians of the Realm",
-        "rule": "<b> Second Battle Round Onwards</b> <br/> When: End of the command phase (or end of turn if 5th battle round and you are going second) <br/> The player whose turn it is scores 6VP for each objective marker they control in their deployment zone. <br/> <b>Additional</b> <br/> For each objective marker they control outside their deployment zone, they may choose one unit (excluding aircraft) to guard that marker until the start of their next turn.",
-        "image": ""
-      },
-      {
-        "name": "Secure and Defend",
-        "rule": "<b> Second Battle Round Onwards</b> <br/> When: End of the command phase (or at the end of your turn if it is the fifth battle round and you are going second). <br/> The player whose turn it is scores 6VP for each objective marker they control, up to 18VP per turn.",
-        "image": ""
-      },
-      {
-        "name": "Explosive Devices",
-        "rule": "The objective markers that start the battle in No Man's Land are Explosive Devices. <br/><b>Deactivate Device (Action)</b><br/> Starts: Your shooting phase<br/> Units: One or more units from your army, each within range of a different explosive device you control. <br/> Completes: End of your turn, if the unit performing this action is still within range of the same explosive device and you control that device. <br/> If completed: You can move each of those explosive devices up to 6 inches. <br/> <b>Second Battle Round Onwards</b><br/> When: End of each player's turn. <br/> The player whose turn it is scores VP as follows: 10VP for each explosive device that is within their opponent's deployment zone, 7VP for each within 6 inches of their opponent's deployment zone, and 3VP for each within 12 inches of their opponent's deployment zone.",
-        "image": ""
-      },
-      {
-        "name": "Vanquish the Enemy",
-        "rule": "<b> Any Battle Round </b> <br/> When: End of the battle round. <br/> Each player scores 5VP if one or more enemy units were destroyed this battle round. <br/> <b> Second Battle Round Onwards </b> When: End of the battle round. <br/> Each player scores 5VP if more enemy units than friendly units were destroyed this battle round. <br/> <b> Second Battle Round Onwards </b> <br/> When: End of the command phase (or end of your turn if it is the 5th battle round and you are going second) <br/> The player whose turn it is scores 5VP if they control one or more objective markers and an additional 5VP if they control more objective markers than their opponent.",
+        "rule": "From the second battle round onward during the command phase, score 4VP for each objective marker you control, only if you control an objective in your deployment zone.",
         "image": ""
       }
     ],
@@ -54,47 +24,12 @@
       },
       {
         "name": "Shadow Operations",
-        "rule": "After both players have deployed, starting with the defender, each player can place one unit from their army in hidden reserves. <br/> The points value of such a unit cannot exceed 20% of each player's total points limit for the chosen battle size.",
+        "rule": "After deployment, both players roll a d6. The highest roll gets to redeploy d6 units",
         "image": ""
       },
       {
         "name": "Tactical Superiority",
-        "rule": "While a player's Warlord is within their deployment zone, each time a unit from that player's army performs an action, that unit gains +1 to its action roll if the Warlord is within 6 inches and visible to the unit.",
-        "image": ""
-      },
-      {
-        "name": "Decisive Maneuvers",
-        "rule": "Battleline units that perform an action may also advance during the same turn without penalty.",
-        "image": ""
-      },
-      {
-        "name": "Rapid Reinforcements",
-        "rule": "In the first battle round, players can set up battleline units from strategic reserves in their reinforcements step of their movement phase. Units must be set up wholly within 8 inches of any battlefield edge but not within the enemy deployment zone. <br/> The points total of the units a player can set up in this way cannot exceed 12% of their total points limit for the chosen battle size.",
-        "image": ""
-      },
-      {
-        "name": "Standard Bearers",
-        "rule": "At the end of each player's turn, if a battleline unit from their army is within range of an objective marker they control, they raise a flag on that marker: The player scores 5VP, and no other units can raise a flag on that marker for the rest of the game.",
-        "image": ""
-      },
-      {
-        "name": "Hidden Reserves",
-        "rule": "If you also drew the Critical Drop primary mission, discard this mission rule card and draw a new one. <br/> In the place objective markers step, players must set up an additional objective marker in No Man's Land. Before setting up, players must move the center objective marker 8 inches towards one battlefield edge. The new marker is placed 8 inches from the center towards the diagonally opposite corner.",
-        "image": ""
-      },
-      {
-        "name": "Adapt and Overcome",
-        "rule": "<b> Using Fixed Missions </b> <br/> Once per game, at the end of that player's turn, they may discard one secondary mission card and draw a new one from the fixed missions deck. <br/> <b> Using Tactical Missions </b><br/> Twice per game, after drawing a secondary mission card, the player may replace it with another secondary mission card from the tactical missions deck, then shuffle one of the two cards back into the deck.",
-        "image": ""
-      },
-      {
-        "name": "Battlefield Fog",
-        "rule": "In the first battle round, units gain +1 to their cover saves, and core stratagems cannot be used.",
-        "image": ""
-      },
-      {
-        "name": "Resolute Defenders",
-        "rule": "Battleline units that perform an action are still able to shoot, though they cannot perform another action in the same turn. Additionally, battleline units can perform actions while engaged with enemy units.",
+        "rule": "While a player's Warlord is within their deployment zone, units from that players army gain +1 OC",
         "image": ""
       }
     ],
@@ -113,21 +48,6 @@
         "name": "Recon and Secure",
         "rule": "foobar",
         "image": "./static/images/reconandsecure.png"
-      },
-      {
-        "name": "Arena of War",
-        "rule": "foobar",
-        "image": "./static/images/arenaofwar.png"
-      },
-      {
-        "name": "Critical Objective",
-        "rule": "foobar",
-        "image": "./static/images/criticalobjective.png"
-      },
-      {
-        "name": "Standoff",
-        "rule": "foobar",
-        "image": "./static/images/standoff.png"
       }
     ]
   }
