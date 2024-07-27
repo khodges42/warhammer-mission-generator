@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer Mission Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .button-container {
+            margin-bottom: 20px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #eaeaea;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            overflow: hidden;
+        }
+        .card-header {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .card-header p {
+            margin: 5px 0;
+        }
+        .card-content {
+            padding: 15px;
+            color: black;
+            text-align: center;
+        }
+        .mission-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Warhammer Mission Generator</h1>
+    
+    <div class="button-container">
+        <form action="{{ url_for('index') }}" method="post">
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+
+    <div class="cards-container">
+        <div class="card">
+            <div class="card-header">
+                <p>Primary Mission</p>
+                <p><b>{{ primary_mission.name }}</b></p>
+            </div>
+            <div class="card-content">
+                {{ primary_mission.rule  | safe }}
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p>Mission Rule</p>
+                <p><b>{{ mission_rule.name }}</b></b></p>
+            </div>
+            <div class="card-content">
+                {{ mission_rule.rule  | safe }}
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p>Deployment</p>
+                <p><b>{{ deployment.name }}</b></p>
+            </div>
+            <div class="card-content">
+                <img src="{{ deployment.image }}" alt="Deployment Image" class="mission-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Ignore the specific JSON file
+pariahnexus.json
+
+# Ignore all JPG files
+*.jpg
