@@ -1,7 +1,7 @@
 
 # Warhammer Mission Generator
 
-Welcome to the Warhammer Mission Generator! This project provides a tool for generating randomized Warhammer 40k missions, including primary missions, deployment types, and mission rules. Perfect for adding some variety and excitement to your games.
+Welcome to the Warhammer Mission Generator! This project provides a tool for generating randomized Warhammer 40k missions, including primary missions, deployment types, and mission rules. We've included some GPT generated missions, but feel free to input your own cards. I won't be including official Games Workshop rules in this repo, but if you edit the missions json file (or create another) with rules that you prefer to play with, you can use those too.
 
 ## Features
 
@@ -24,7 +24,7 @@ To get started with the Warhammer Mission Generator, you'll need to set up the F
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/warhammer-mission-generator.git
+   git clone https://github.com/khodges42/warhammer-mission-generator.git
    cd warhammer-mission-generator
    ```
 
